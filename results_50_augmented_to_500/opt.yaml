@@ -3,7 +3,7 @@ cfg: cfg/training/yolov7.yaml
 data: D:\OU Master AI\Research methods\Project\YOLO_drone_detection\custom-augmented.yaml
 hyp: data/hyp.scratch.custom.yaml
 epochs: 500
-batch_size: 7
+batch_size: 6
 img_size:
 - 640
 - 640
@@ -39,5 +39,5 @@ freeze:
 v5_metric: false
 world_size: 1
 global_rank: -1
-save_dir: runs\train\yolov7-custom15
-total_batch_size: 7
+save_dir: runs\train\yolov7-custom7
+total_batch_size: 6
