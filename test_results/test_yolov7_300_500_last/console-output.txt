@@ -1,0 +1,16 @@
+Namespace(weights=['D:\\OU Master AI\\Research methods\\Project\\YOLO_drone_detection\\results_300_img_500_epochs_training\\weights\\last.pt'], data='D:\\OU Master AI\\Research methods\\Project\\YOLO_drone_detection\\custom.yaml', batch_size=6, img_size=640, conf_thres=0.001, iou_thres=0.65, task='test', device='0', single_cls=True, augment=False, verbose=False, save_txt=False, save_hybrid=False, save_conf=False, save_json=True, project='runs/test', name='test_yolov7_300_500_last', exist_ok=False, no_trace=False, v5_metric=False)
+Fusing layers... 
+RepConv.fuse_repvgg_block
+RepConv.fuse_repvgg_block
+RepConv.fuse_repvgg_block
+IDetect.fuse
+ Convert model to Traced-model... 
+ traced_script_module saved! 
+ model is traced! 
+
+                 all         530         569       0.859       0.821       0.867       0.491
+Speed: 12.4/1.5/13.9 ms inference/NMS/total per 640x640 image at batch-size 6
+
+Evaluating pycocotools mAP... saving runs\test\test_yolov7_300_500_last2\last_predictions.json...
+pycocotools unable to run: No module named 'pycocotools'
+Results saved to runs\test\test_yolov7_300_500_last2
