@@ -1,4 +1,4 @@
-train: 'D:\OU Master AI\Research methods\Project\YOLO_drone_detection\train-augmented.txt'
+train: 'D:\OU Master AI\Research methods\Project\YOLO_drone_detection\train.txt'
 val: 'D:\OU Master AI\Research methods\Project\YOLO_drone_detection\val.txt'
 test: 'D:\OU Master AI\Research methods\Project\YOLO_drone_detection\test.txt'
 nc: 1
